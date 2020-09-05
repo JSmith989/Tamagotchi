@@ -1,4 +1,5 @@
 import cardData from '../data/cardData';
+import buttons from './buttons';
 
 const buildCards = () => {
   const data = cardData.getData();
@@ -9,9 +10,10 @@ const buildCards = () => {
     <h4><b>${item.action.toUpperCase()}</b></h4>
     <h5>${item.score}</h5>
     <button id="btn1-${item.button1}">${item.button1}</button>
-    <button id="btn1-${item.button2}">${item.button2}</button>
+    <button id="btn2-${item.button2}">${item.button2}</button>
   </div>
 </div>`);
+    buttons.eatButton();
   });
 };
 
