@@ -1,0 +1,14 @@
+$color: white;
+$border: 3px solid white;
+$width: 300px;
+
+.card-fight {
+    color: $color;
+    background-image: url(https://media4.giphy.com/media/3ohc0QQkTH6YK8g4zS/source.gif);
+    border: $border;
+    width: $width;
+    padding: 40px;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+  }
