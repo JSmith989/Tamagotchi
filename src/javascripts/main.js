@@ -5,7 +5,7 @@ import tamagotchiCard from './components/tamagotchiCard';
 const init = () => {
   $('#app').html('<h1>Tamagotchi</h1>');
   cardData.getData();
-  tamagotchiCard.buildCards();
+  tamagotchiCard.tamaCards();
 };
 
 init();
