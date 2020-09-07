@@ -1,0 +1,14 @@
+$color: white;
+$border: 3px solid white; 
+$width: 300px; 
+
+.card-sleep {
+    color: $color;
+    background-image: url(https://i.pinimg.com/originals/f9/71/5d/f9715d317e61f0bc1318544b0cf7f856.gif);
+    border: $border;
+    width: $width;
+    padding: 40px;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+  }

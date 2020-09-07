@@ -1,39 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import './components/';
 
 body {
-  background-color: antiquewhite;
+  background-color: rgba(1, 1, 116, 0.822);
+  background-image: url(https://media1.giphy.com/media/YmQ4F1ccptmhFI2zuS/source.gif);
   color: brown;
   text-align: center;
   margin-top: 100px;
-  
-}
-
-.card-sleep {
-  background-color: rgb(9, 82, 92);
-  border: 3px solid white;
-  display: flex;
-  align-items: flex-start;
-  width: 300px;
-}
-.card-eat {
-  background-color: rgb(92, 9, 34);
-  border: 3px solid white;
-  display: flex;
-  flex-direction: row wrap;
-  width: 300px;
-}
-.card-play {
-  background-color: rgb(24, 9, 92);
-  border: 3px solid white;
-  display: flex;
-  flex-direction: row wrap;
-  width: 300px;
-}
-.card-fight {
-  background-color: rgb(73, 9, 92);
-  border: 3px solid white;
-  display: flex;
-  flex-direction: row wrap;
-  width: 300px;
 }

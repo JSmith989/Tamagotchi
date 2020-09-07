@@ -1,0 +1,14 @@
+$color: white;
+$border: 3px solid white;
+$width: 300px;
+
+.card-play {
+    color: $color;
+    background-image: url(https://media2.giphy.com/media/3o6Ztg2MgUkcXyCgtG/giphy.gif);
+    border: $border;
+    width: $width;
+    padding: 40px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }

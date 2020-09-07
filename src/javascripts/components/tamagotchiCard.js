@@ -25,7 +25,7 @@ import sleepButtons from './sleepButtons';
 const buildCards = (item) => {
   const domString = `
   <div class="card-${item.action}">
-<div class="container-${item.action}">
+<div class="container">
   <h4><b>${item.action.toUpperCase()}</b></h4>
   <div id="${item.id}">
   <h5 id="${item.action}-score">${item.score}</h5>

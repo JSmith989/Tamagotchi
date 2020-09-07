@@ -1,0 +1,14 @@
+$color: white;
+$border: 3px solid white;
+$width: 300px;
+
+.card-eat {
+    color: $color;
+   background-image: url(https://media1.giphy.com/media/JJluJeEqQL4Pe/source.gif);
+    border: $border;
+    width: $width;
+    padding: 40px;
+    position: absolute;
+    top: 8px;
+    left:16px;
+}
